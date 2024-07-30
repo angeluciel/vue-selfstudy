@@ -1,13 +1,17 @@
-<script>
-import NavBar from '../components/NavBar.vue'
+<template>
+  <div>
+    <ActionTable></ActionTable>
+  </div>
+</template>
 
+<script>
+import ActionTable from '@/components/HeaderBar.vue'
 export default {
-  components: { NavBar }
+  components: { ActionTable },
+  setup() {
+    return {}
+  }
 }
 </script>
 
-<template>
-  <main>
-    <NavBar />
-  </main>
-</template>
+<style lang="scss" scoped></style>
